@@ -1,0 +1,27 @@
+body {
+    color: #777777;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1080px;
+    border: #dddddd;
+}
+
+.heading {
+    color: #4aaaa5;
+    background-color: #666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#headshot {
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    /*padding-right: 15px;*/
+}
+
+#main-border {
+    border: #cccccc;
+    border-style: inset;
+}
+
