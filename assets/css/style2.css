@@ -1,0 +1,32 @@
+h1 {
+    margin: 0;
+    background: #4aaaa5;
+    color: whitesmoke;
+    width: 250px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    border-bottom: #4aaaa5 5px solid;
+}
+
+div { /*all content divs center with defined width*/
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(88, 88, 248)
+}
+
+#aboutme {
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+#headshot {
+    width: 145px;
+    float: left;
+    margin-right: 10px;
+}

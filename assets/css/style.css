@@ -1,27 +1,42 @@
 body {
-    color: #777777;
-    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    width: 1080px;
-    border: #dddddd;
+    width: 960px;
+    margin: 0 auto;
 }
 
-.heading {
-    color: #4aaaa5;
-    background-color: #666666;
+#mah-name {
+    width: 250px;
+    height: 70px;
+    margin: 0;
+    color: #666666;
+    background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    float: left;
+}
+
+.section {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    clear: both;
+    padding: 15px 0;
+    border-bottom: #4aaaa5 5px solid;
 }
 
 #headshot {
-    border-radius: 8px;
-    width: 200px;
-    height: auto;
-    /*padding-right: 15px;*/
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+    border-left: #4aaaa5 5px solid;
 }
 
-#main-border {
-    border: #cccccc;
-    border-style: inset;
+#meat {
+    text-align: justify;
+    margin-left: auto;
 }
 
+#navbar { /*Dislay contact me horizontally as a line*/
+    display: inline;
+    margin: 0;
+    float: right;
+}
